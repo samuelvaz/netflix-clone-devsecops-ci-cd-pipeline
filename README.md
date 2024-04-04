@@ -350,7 +350,7 @@ sudo systemctl restart jenkins
 
    ```bash
    sudo useradd --system --no-create-home --shell /bin/false prometheus
-   wget https://github.com/prometheus/prometheus/releases/download/v2.47.1/prometheus-2.47.1.linux-amd64.tar.gz
+   wget https://github.com/prometheus/prometheus/releases/download/v2.51.1/prometheus-2.51.1.darwin-amd64.tar.gz
    ```
 
    Extract Prometheus files, move them, and create directories:
