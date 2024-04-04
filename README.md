@@ -13,7 +13,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone https://github.com/samuelvaz/netflix-clone-devsecops-ci-cd-pipeline.git
     ```
     
 
@@ -180,7 +180,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/samuelvaz/netflix-clone-devsecops-ci-cd-pipeline.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -270,7 +270,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/samuelvaz/netflix-clone-devsecops-ci-cd-pipeline.git'
             }
         }
         stage("Sonarqube Analysis "){
