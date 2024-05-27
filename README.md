@@ -638,7 +638,7 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 1. **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
 
-**Phase 7: Cleanup**
+**Phase 6: Cleanup**
 
 1. **Cleanup AWS EC2 Instances:**
     - Terminate AWS EC2 instances that are no longer needed.
